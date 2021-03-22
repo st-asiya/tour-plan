@@ -1,64 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Best Tour Plan - Hotel Booking</title>
-</head>
-<body>
-  
-  <header class="header">
-    <div class="container">
-      <div class="header-top">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Tour Plan - Hotel Booking</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <a href="#" class="logo">
+            <img
+              src="img/logo-horizontal.svg"
+              alt="Logo: Best Tour Plan"
+              class="logo__image"
+            />
+          </a>
 
-        <a href="#" class="logo">
-          <img src="img/logo-horizontal.svg" alt="Logo% Best Tour Plan" class="logo__image"/>
-        </a>
+          <form action="#" class="search">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Search Location"
+            />
 
-        <form action="#" class="search">
+            <button class="search__button">
+              <img src="img/search.svg" alt="Icon: search" />
+            </button>
+          </form>
 
-          <input
-            type="text"
-            class="search__input"
-            placeholder="Search Location"/>
-
-          <button class="search__button">
-            <img src="img/search.svg" alt="Icon: search">
-          </button>
-          
-        </form> 
-
-        <a href="#" class="user">
-          <img  
+          <a href="#" class="user">
+            <img
               src="img/user-avatar.jpg"
               alt="avatar: Nathan"
-              class="user__avatar"/>
-          <span class="user__name">Nathan</span>
-        </a>
-        <!-- /.user -->
+              class="user__avatar"
+            />
+            <span class="user__name">Nathan</span>
+          </a>
+          <!-- /.user -->
+        </div>
+        <!-- /.header-top -->
+
+        <nav class="header-bar">
+          <ul class="header-menu">
+            <li class="header-menu__item">
+              All Deals<a href="#" class="header-menu__link"></a>
+            </li>
+            <li class="header-menu__item">
+              Hotels<a href="#" class="header-menu__link"></a>
+            </li>
+            <li class="header-menu__item">
+              Activities<a href="#" class="header-menu__link"></a>
+            </li>
+            <li class="header-menu__item">
+              Hotel Day Packages<a href="#" class="header-menu__link"></a>
+            </li>
+            <li class="header-menu__item">
+              Restaurants<a href="#" class="header-menu__link"></a>
+            </li>
+            <li class="header-menu__item">
+              Events<a href="#" class="header-menu__link"></a>
+            </li>
+            <li class="header-menu__item">
+              Rodrigues<a href="#" class="header-menu__link"></a>
+            </li>
+          </ul>
+          <!-- /.header-menu -->
+        </nav>
+        <!-- /.header-bar -->
       </div>
-      <!-- /.header-top -->
-
-      <nav class="header-bar">
-
-        <ul class="header-menu">
-          <li class="header-menu__item">All Deals<a href="#" class="header-menu__link"></a></li>
-          <li class="header-menu__item">Hotels<a href="#" class="header-menu__link"></a></li>
-          <li class="header-menu__item">Activities<a href="#" class="header-menu__link"></a></li>
-          <li class="header-menu__item">Hotel Day Packages<a href="#" class="header-menu__link"></a></li>
-          <li class="header-menu__item">Restaurants<a href="#" class="header-menu__link"></a></li>
-          <li class="header-menu__item">Events<a href="#" class="header-menu__link"></a></li>
-          <li class="header-menu__item">Rodrigues<a href="#" class="header-menu__link"></a></li>
-        </ul>
-        <!-- /.header-menu -->
-
-      </nav>
-      <!-- /.header-bar -->
-
-    </div>
-    <!-- /.container -->
-  </header>
-
-</body>
+      <!-- /.container -->
+    </header>
+  </body>
 </html>
