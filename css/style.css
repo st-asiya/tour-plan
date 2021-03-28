@@ -698,6 +698,11 @@ template {
   padding: 28px;
 }
 
+.booking__icon {
+  max-width: 14px;
+  max-height: 14px;
+}
+
 .booking__info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -740,6 +745,7 @@ template {
 }
 
 .booking__room {
+  width: 81px;
   margin-top: 4px;
 }
 
@@ -794,6 +800,7 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 81px;
   font-style: normal;
   color: inherit;
   text-decoration: none;
